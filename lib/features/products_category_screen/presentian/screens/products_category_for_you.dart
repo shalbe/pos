@@ -276,7 +276,8 @@ class _ProductsForYouScreenState extends State<ProductsForYouScreen> {
                                                   CupertinoIcons.search,
                                                   color: Colors.grey.shade400,
                                                 ),
-                                                hintText:  ' البحث في '+ AppConst.kAppName,
+                                                hintText: ' البحث في ' +
+                                                    AppConst.kAppName,
                                                 hintStyle: TextStyle(
                                                     color: Colors.grey.shade400,
                                                     fontSize: 17.sp),
@@ -566,7 +567,9 @@ class _ProductsForYouScreenState extends State<ProductsForYouScreen> {
                                   if (index == 3) {
                                     return BlogWidget();
                                   } else {
-                                    return GetProductsCategory(index: index,);
+                                    return GetProductsCategory(
+                                      index: index,
+                                    );
                                   }
                                 },
                                 separatorBuilder: (context, index) => Divider(
